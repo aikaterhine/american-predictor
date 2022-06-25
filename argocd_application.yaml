@@ -1,0 +1,232 @@
+metadata:
+  creationTimestamp: "2022-06-22T12:14:11Z"
+  generation: 1716
+  managedFields:
+  - apiVersion: argoproj.io/v1alpha1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:spec:
+        .: {}
+        f:destination:
+          .: {}
+          f:namespace: {}
+          f:server: {}
+        f:project: {}
+        f:source:
+          .: {}
+          f:path: {}
+          f:repoURL: {}
+        f:syncPolicy:
+          .: {}
+          f:automated: {}
+      f:status:
+        .: {}
+        f:health:
+          .: {}
+          f:status: {}
+        f:history: {}
+        f:operationState:
+          .: {}
+          f:finishedAt: {}
+          f:message: {}
+          f:operation:
+            .: {}
+            f:initiatedBy:
+              .: {}
+              f:username: {}
+            f:retry: {}
+            f:sync:
+              .: {}
+              f:revision: {}
+              f:syncStrategy:
+                .: {}
+                f:hook: {}
+          f:phase: {}
+          f:startedAt: {}
+          f:syncResult:
+            .: {}
+            f:resources: {}
+            f:revision: {}
+            f:source:
+              .: {}
+              f:path: {}
+              f:repoURL: {}
+        f:reconciledAt: {}
+        f:resources: {}
+        f:sourceType: {}
+        f:summary:
+          .: {}
+          f:images: {}
+        f:sync:
+          .: {}
+          f:comparedTo:
+            .: {}
+            f:destination:
+              .: {}
+              f:namespace: {}
+              f:server: {}
+            f:source:
+              .: {}
+              f:path: {}
+              f:repoURL: {}
+          f:revision: {}
+          f:status: {}
+    manager: Go-http-client
+    operation: Update
+    time: "2022-06-25T20:24:15Z"
+  name: catarinapereira-american-predictor
+  namespace: argocd
+  resourceVersion: "3499606"
+  uid: 4ece34cc-89bf-48df-810e-1df8a0775356
+spec:
+  destination:
+    namespace: catarinapereira
+    server: https://kubernetes.default.svc
+  project: catarinapereira-project
+  source:
+    path: kubernetes
+    repoURL: https://github.com/aikaterhine/american-predictor
+  syncPolicy:
+    automated: {}
+status:
+  health:
+    status: Healthy
+  history:
+  - deployStartedAt: "2022-06-24T19:11:38Z"
+    deployedAt: "2022-06-24T19:11:38Z"
+    id: 3
+    revision: 6f0f2b59d3df90e4079af4e59b2fb015bebb3511
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  - deployStartedAt: "2022-06-24T19:24:22Z"
+    deployedAt: "2022-06-24T19:24:26Z"
+    id: 4
+    revision: 6f0f2b59d3df90e4079af4e59b2fb015bebb3511
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  - deployStartedAt: "2022-06-24T19:25:03Z"
+    deployedAt: "2022-06-24T19:25:03Z"
+    id: 5
+    revision: 6f0f2b59d3df90e4079af4e59b2fb015bebb3511
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  - deployStartedAt: "2022-06-24T19:35:02Z"
+    deployedAt: "2022-06-24T19:35:08Z"
+    id: 6
+    revision: 504f2424b4aeada5cb93a9fb24d969bbb8bda5b0
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  - deployStartedAt: "2022-06-24T19:36:35Z"
+    deployedAt: "2022-06-24T19:36:36Z"
+    id: 7
+    revision: 504f2424b4aeada5cb93a9fb24d969bbb8bda5b0
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  - deployStartedAt: "2022-06-24T19:47:18Z"
+    deployedAt: "2022-06-24T19:47:23Z"
+    id: 8
+    revision: b5f8fa45570806d0c28018358736a77233a1ad53
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  - deployStartedAt: "2022-06-25T19:08:19Z"
+    deployedAt: "2022-06-25T19:08:23Z"
+    id: 9
+    revision: 7d924451b944df4141759d5b9107256305035d64
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  - deployStartedAt: "2022-06-25T19:38:18Z"
+    deployedAt: "2022-06-25T19:38:22Z"
+    id: 10
+    revision: 54b70643162879ef92882d9dd83685501a4416b6
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  - deployStartedAt: "2022-06-25T20:02:19Z"
+    deployedAt: "2022-06-25T20:02:23Z"
+    id: 11
+    revision: a438d8e2962a90cbabde35fd8e97bbac43234e28
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  - deployStartedAt: "2022-06-25T20:24:09Z"
+    deployedAt: "2022-06-25T20:24:14Z"
+    id: 12
+    revision: 9a1bd75911ae288f4a995b5f412eca0a1a536378
+    source:
+      path: kubernetes
+      repoURL: https://github.com/aikaterhine/american-predictor
+  operationState:
+    finishedAt: "2022-06-25T20:24:14Z"
+    message: successfully synced (all tasks run)
+    operation:
+      initiatedBy:
+        username: catarinapereira
+      retry: {}
+      sync:
+        revision: 9a1bd75911ae288f4a995b5f412eca0a1a536378
+        syncStrategy:
+          hook: {}
+    phase: Succeeded
+    startedAt: "2022-06-25T20:24:09Z"
+    syncResult:
+      resources:
+      - group: ""
+        hookPhase: Running
+        kind: Service
+        message: service/american-predictor-service unchanged
+        name: american-predictor-service
+        namespace: catarinapereira
+        status: Synced
+        syncPhase: Sync
+        version: v1
+      - group: apps
+        hookPhase: Running
+        kind: Deployment
+        message: deployment.apps/american-predictor-deployment configured
+        name: american-predictor-deployment
+        namespace: catarinapereira
+        status: Synced
+        syncPhase: Sync
+        version: v1
+      revision: 9a1bd75911ae288f4a995b5f412eca0a1a536378
+      source:
+        path: kubernetes
+        repoURL: https://github.com/aikaterhine/american-predictor
+  reconciledAt: "2022-06-25T20:32:18Z"
+  resources:
+  - health:
+      status: Healthy
+    kind: Service
+    name: american-predictor-service
+    namespace: catarinapereira
+    status: Synced
+    version: v1
+  - group: apps
+    health:
+      status: Healthy
+    kind: Deployment
+    name: american-predictor-deployment
+    namespace: catarinapereira
+    status: Synced
+    version: v1
+  sourceType: Directory
+  summary:
+    images:
+    - catarinaedp/american-predictor:v2.0.12
+  sync:
+    comparedTo:
+      destination:
+        namespace: catarinapereira
+        server: https://kubernetes.default.svc
+      source:
+        path: kubernetes
+        repoURL: https://github.com/aikaterhine/american-predictor
+    revision: 9a1bd75911ae288f4a995b5f412eca0a1a536378
+    status: Synced
