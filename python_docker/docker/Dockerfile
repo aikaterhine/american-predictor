@@ -10,7 +10,7 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-ADD https://github.com/aikaterhine/american-predictor/raw/ae745c4ccb2561fbbc7f296b2d76ce34baff3bc5/model.pickle .
+ADD https://github.com/aikaterhine/american-predictor/raw/main/model.pickle .
 
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=5006"]
 
