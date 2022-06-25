@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: american-predictor
-        image: catarinaedp/american-predictor:v2.0.9
+        image: catarinaedp/american-predictor:v2.0.10
         ports:
         - containerPort: 5006
